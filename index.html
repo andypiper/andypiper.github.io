@@ -21,8 +21,8 @@
   </head>
 
   <body>
-    <div class="container">
-      <header class="my-4 d-flex align-items-center bg-primary text-white p-3 h-card">
+    <div class="container h-card">
+      <header class="my-4 d-flex align-items-center bg-primary text-white p-3">
         <img src="https://www.gravatar.com/avatar/6aaa5c1546fbb551213db3b3cd533e9f?s=100" alt="Andy Piper"
           class="rounded-circle me-3 u-photo">
         <div>
@@ -31,10 +31,10 @@
         </div>
       </header>
       <main>
-        <article class="h-entry">
+        <article>
           <section class="my-4">
-            <h2 class="p-name">About</h2>
-            <p class="p-note e-content">I'm a technologist, maker, speaker, coder, and social bridgebuilder.</p>
+            <h2>About</h2>
+            <p class="p-note">I'm a technologist, maker, speaker, coder, and social bridgebuilder.</p>
           </section>
           <section class="my-4">
             <h2>Tools</h2>
@@ -42,7 +42,7 @@
               <div class="col-md-4 mb-4">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h3 class="card-title"><i class="fas fa-bullhorn me-2"></i>Mastodon Digest</h3>
+                    <h3 class="card-title"><i class="fas fa-clipboard-list me-2"></i>Mastodon Digest</h3>
                     <a href="/mastodon_digest" class="btn btn-secondary stretched-link">View</a>
                   </div>
                 </div>
@@ -50,8 +50,8 @@
               <div class="col-md-4 mb-4">
                 <div class="card h-100">
                   <div class="card-body">
-                    <h3 class="card-title"><i class="fas fa-archive me-2"></i>Tweet archive</h3>
-                    <a href="/twarchive" class="btn btn-secondary stretched-link">View</a>
+                    <h3 class="card-title"><i class="fas fa-ghost me-2"></i>Tweet Archive</h3>
+                    <a href="/twistory" class="btn btn-secondary stretched-link">View</a>
                   </div>
                 </div>
               </div>
@@ -67,8 +67,14 @@
           </section>
 
           <section class="my-4">
-            <h2>Project Archive</h2>
+            <h2>Past projects</h2>
             <div class="row">
+              <div class="col-md-6">
+                <ul>
+                  <li><a href="https://mqtt.org">MQTT</a> (formerly, technology advocate)</li>
+                  <li><a href="https://eclipse.org/paho">Eclipse Paho (MQTT)</a> (initial project lead)</li>
+                </ul>
+              </div>
               <div class="col-md-6">
                 <ul>
                   <li><a href="https://github.com/twitterdev">TwitterDev sample code</a></li>
@@ -77,22 +83,16 @@
                   </li>
                 </ul>
               </div>
-              <div class="col-md-6">
-                <ul>
-                  <li><a href="https://mqtt.org">MQTT</a></li>
-                  <li><a href="https://eclipse.org/paho">Eclipse Paho (MQTT)</a></li>
-                </ul>
-              </div>
             </div>
           </section>
 
           <section class="my-4">
-            <h2>Other</h2>
+            <h2>Other resources</h2>
             <div class="row">
               <div class="col-md-6">
                 <ul>
-                  <li><a href="https://andypiper.co.uk">Blog</a></li>
-                  <li><a href="https://flickr.com/photos/andypiper">Photos</a></li>
+                  <li><a a rel="me" class="u-url" href="https://andypiper.co.uk">My blog</a></li>
+                  <li><a a rel="me" class="u-url" href="https://flickr.com/photos/andypiper">My photos</a></li>
                 </ul>
               </div>
             </div>
