@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Andy Piper",
+    "affiliation": [
+      {
+        "@type": "Organization",
+        "name": "Games at Work dot Biz",
+        "sameAs": [
+          "https://twitter.com/gamesatwork_biz",
+          "https://gamesatwork.biz"
+        ]
+      }
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Brasenose College Oxford",
+        "sameAs": "https://en.wikipedia.org/wiki/Brasenose_College,_Oxford"
+      }
+    ],
+    "Description": "Technologist",
+    "jobTitle": "Consultant & Speaker",
+    "worksFor": [
+      {
+        "@type": "Organization",
+        "name": "The Lost Outpost",
+      }
+    ],
+    "url": "https://andypiper.me",
+    "image": "https://s.gravatar.com/avatar/dc6291565f6869588ebac0a0486d6d4b?s=512&r=PG",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kingston upon Thames",
+      "addressRegion": "London",
+      "addressCountry": "United Kingdom"
+    },
+    "sameAs": [
+      "https://twitter.com/andypiper",
+      "https://instagram.com/andypiper",
+      "https://glitch.com/@andypiper",
+      "https://replit.com/@andypiper",
+      "https://dev.to/andypiper",
+      "https://stackoverflow.com/users/262478/andy-piper",
+      "https://github.com/andypiper",
+      "https://gitlab.com/andypiper",
+      "https://www.linkedin.com/in/andypiperuk/",
+      "https://ko-fi.com/andypiper",
+      "https://twitch.tv/andypiper",
+      "https://andypiper.medium.com/",
+      "https://soundcloud.com/andypiper",
+      "https://bandcamp.com/andypiper",
+      "https://macaw.social/@andypiper",
+      "https://youtube.com/andypiperuk",
+      "https://foursquare.com/andypiper",
+      "https://andypiper.co.uk/",
+      "https://polywork.com/andypiper"
+    ]
+  }
+</script>
+
+    <title>Andy Piper... by andypiper</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Andy Piper</h1>
+          <h2>Developer Advocate</h2>
+        </header>
+
+        <hr>
+
+        <section id="main_content">
+          <h2>Bio</h2>
+
+          <p>Open Source | MQTT | Community</p>
+
+          <h2>Profiles</h2>
+
+          <ul>
+            <li><a href="https://macaw.social/@andypiper">Fediverse</a></li>
+            <li><a href="https://andypiper.me">Glitch in bio / links</a></li>
+          </ul>
+
+          <h2>Past Projects</h2>
+
+          <ul>
+            <li><a href="https://github.com/twitterdev">TwitterDev sample code</a></li>
+            <li><a href="https://twittercommunity.com">Twitter Developers community</a></li>
+            <li><a href="https://github.com/andypiper/sinatra-static-web">Sinatra web server for Cloud Foundry</a></li>
+            <li><a href="https://mqtt.org">MQTT</a></li>
+            <li><a href="https://eclipse.org/paho">Eclipse Paho (MQTT)</a></li>
+          </ul>
+
+          <h2>Other</h2>
+
+          <ul>
+            <li><a href="https://andypiper.co.uk">Blog</a></li>
+            <li><a href="https://flickr.com/photos/andypiper">Photos</a></li>
+          </ul>
+        </section>
+
+
+        <script type="text/javascript">
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        <script type="text/javascript">
+          try {
+            var pageTracker = _gat._getTracker("UA-37524306-1");
+            pageTracker._trackPageview();
+          } catch (err) { }
+        </script>
+
+      </div>
+    </div>
+  </body>
+
+</html>
