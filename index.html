@@ -25,9 +25,16 @@
   <body>
     <div class="container h-card">
       <header class="my-4 d-flex align-items-center bg-primary text-white p-3">
-        <img
-          src="https://www.gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?s=180"
-          width="180" height="180" alt="Andy Piper" class="rounded-circle me-3 u-photo">
+        <picture>
+          <source
+            srcset="https://www.gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?s=180 180w,
+                    https://www.gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?s=120 120w,
+                    https://www.gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?s=90 90w"
+            sizes="(max-width: 576px) 90px, (max-width: 768px) 120px, 180px">
+          <img
+            src="https://www.gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?s=180"
+            alt="Andy Piper" class="rounded-circle me-3 u-photo">
+        </picture>
         <div>
           <h1 class="p-name mb-0">Andy Piper</h1>
           <p class="p-job-title lead mb-0">Freelance Technologist</p>
