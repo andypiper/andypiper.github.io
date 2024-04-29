@@ -44,9 +44,18 @@
       <main>
         <article>
           <section class="my-4">
-            <h2>About</h2>
+            <h2 class="expandable-section" data-bs-toggle="collapse" data-bs-target="#about-collapse"
+              aria-expanded="false" aria-controls="about-collapse">
+              About
+              <i class="fas fa-caret-down"></i>
+              </button>
+            </h2>
             <p class="p-note">I'm a technologist, maker, speaker, coder, and social bridgebuilder.</p>
-            <div id="about-content"></div>
+            <div class="collapse" id="about-collapse">
+              <div class="card card-body">
+                <div id="about-content"></div>
+              </div>
+            </div>
           </section>
           <section class="my-4">
             <h2>Tools</h2>
