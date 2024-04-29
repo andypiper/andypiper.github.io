@@ -115,21 +115,211 @@
           </section>
 
           <section class="my-4">
-            <h2>Past projects</h2>
-            <div class="row">
-              <div class="col-md-6">
-                <ul>
-                  <li><a href="https://mqtt.org">MQTT</a> (formerly, technology advocate)</li>
-                  <li><a href="https://eclipse.org/paho">Eclipse Paho (MQTT)</a> (initial project lead)</li>
-                </ul>
+            <h2 class="expandable-section" data-bs-toggle="collapse" data-bs-target="#current-projects-collapse"
+              aria-expanded="false" aria-controls="current-projects-collapse">
+              Current Projects
+              <i class="fas fa-caret-down"></i>
+            </h2>
+            <div class="collapse" id="current-projects-collapse">
+              <div class="card card-body">
+                <div class="row">
+                  <!-- Fediverse Cards -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="Examples of embedding Mastodon content">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-code me-2"></i>Mastodon Embeds</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://mastodon-embeds.glitch.me/" target="_blank" rel="noopener"
+                              class="btn btn-secondary">View</a>
+                            <a href="https://github.com/andypiper/mastodon-embeds" target="_blank" rel="noopener"
+                              class="btn btn-dark">
+                              <i class="fab fa-github"></i> Source
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="A gist collection of code for Fediverse developers">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-code me-2"></i>Fediverse Code Recipes</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://gist.github.com/andypiper/c8899a9ba2a4602221a8490dae12ff20" target="_blank"
+                              rel="noopener" class="btn btn-dark">
+                              <i class="fab fa-github"></i> Source
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="Documentation for developers in the Fediverse">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-book me-2"></i>Fediverse Developer Network</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://fedidevs.org" target="_blank" rel="noopener"
+                              class="btn btn-secondary">View</a>
+                            <a href="https://github.com/fediverse-devnet" target="_blank" rel="noopener"
+                              class="btn btn-dark">
+                              <i class="fab fa-github"></i> Source
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <!-- Postmarks Cards -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="A self-hosted Fediverse-enabled bookmarking service">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-bookmark me-2"></i>Postmarks</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://pipesmarks.glitch.me/" target="_blank" rel="noopener"
+                              class="btn btn-secondary">View</a>
+                            <a href="https://github.com/andypiper/postmarks" target="_blank" rel="noopener"
+                              class="btn btn-dark">
+                              <i class="fab fa-github"></i> Source
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="A Chrome extension for Postmarks">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fab fa-chrome me-2"></i>Postmarks Browser Extension</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://github.com/andypiper/postmarks-ext" target="_blank" rel="noopener"
+                              class="btn btn-dark">
+                              <i class="fab fa-github"></i> Source
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Pico Plotter, Makeroni, and MicroPython Cards -->
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="A hanging wall plotter hardware project">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-drafting-compass me-2"></i>Pico Plotter</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://hackaday.io/project/193338-minimal-pico-vertical-plotter" target="_blank"
+                              rel="noopener" class="btn btn-secondary">View</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top" title="A pop-up hackspace">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-cogs me-2"></i>Makeroni</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://makeroni.cc" target="_blank" rel="noopener"
+                              class="btn btn-secondary">View</a>
+                            <a href="https://github.com/makeronicc" target="_blank" rel="noopener" class="btn btn-dark">
+                              <i class="fab fa-github"></i> Source
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="A list of great content for MicroPython">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-microchip me-2"></i>Awesome MicroPython</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://awesome-micropython.com" target="_blank" rel="noopener"
+                              class="btn btn-secondary">View</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="A gist collection of useful reading for Developer Relations">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-book-reader me-2"></i>DevRel Resources</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://gist.github.com/andypiper/f20f3ea8f23ca65b9cbba34b81acd993" target="_blank"
+                              rel="noopener" class="btn btn-dark">
+                              <i class="fab fa-github"></i> Source
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 mb-4">
+                    <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                      title="A list of resources related to the history of Computer Art">
+                      <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-palette me-2"></i>Where Is The Art</h3>
+                        <div class="mt-auto">
+                          <div class="d-grid gap-2 d-md-block">
+                            <a href="https://wita.glitch.me" target="_blank" rel="noopener"
+                              class="btn btn-secondary">View</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-6">
-                <ul>
-                  <li><a href="https://github.com/twitterdev">TwitterDev sample code</a></li>
-                  <li><a href="https://twittercommunity.com">Twitter Developers community</a></li>
-                  <li><a href="https://github.com/andypiper/sinatra-static-web">Sinatra web server for Cloud Foundry</a>
-                  </li>
-                </ul>
+            </div>
+          </section>
+          <section class="my-4">
+            <h2 class="expandable-section" data-bs-toggle="collapse" data-bs-target="#past-projects-collapse"
+              aria-expanded="false" aria-controls="past-projects-collapse">
+              Past Projects
+              <i class="fas fa-caret-down"></i>
+            </h2>
+            <div class="collapse" id="past-projects-collapse">
+              <div class="card card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <ul>
+                      <li><a href="https://mqtt.org">MQTT</a> (formerly, technology advocate)</li>
+                      <li><a href="https://eclipse.org/paho">Eclipse Paho (MQTT)</a> (initial project lead)</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul>
+                      <li><a href="https://github.com/twitterdev">TwitterDev sample code</a></li>
+                      <li><a href="https://twittercommunity.com">Twitter Developers community</a></li>
+                      <li><a href="https://github.com/andypiper/sinatra-static-web">Sinatra web server for Cloud
+                          Foundry</a></li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
