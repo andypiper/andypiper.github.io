@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <meta name="description" content="Landing page for Andy Piper, Freelance Technologist">
-    <meta property="og:title" content="Andy Piper">
-    <meta property="og:description" content="Andy Piper is a Freelance Technologist">
+    <meta property="og:title" content="Andy Piper - GitHub tools">
+    <meta property="og:description"
+      content="Andy Piper is a freelance technologist. This is his landing page on GitHub.">
     <meta property="og:url" content="https://andypiper.org">
     <meta property="og:image"
       content="https://www.gravatar.com/avatar/d33e6fe38426aba6431cd4e9c3609a0c6ba480813a7e2d5987170bf015d5b8c7?s=180">
@@ -45,31 +46,59 @@
           <section class="my-4">
             <h2>About</h2>
             <p class="p-note">I'm a technologist, maker, speaker, coder, and social bridgebuilder.</p>
+            <div id="about-content"></div>
           </section>
           <section class="my-4">
             <h2>Tools</h2>
             <div class="row">
               <div class="col-md-4 mb-4">
-                <div class="card h-100">
+                <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                  title="Algorithmic digest of posts I want to see on Mastodon">
                   <div class="card-body">
                     <h3 class="card-title"><i class="fas fa-clipboard-list me-2"></i>Mastodon Digest</h3>
-                    <a href="/mastodon_digest" class="btn btn-secondary stretched-link">View</a>
+                    <div class="mt-auto">
+                      <div class="d-grid gap-2 d-md-block">
+                        <a href="/mastodon_digest" class="btn btn-secondary">View</a>
+                        <a href="https://github.com/andypiper/mastodon_digest" target="_blank" rel="noopener"
+                          class="btn btn-dark">
+                          <i class="fab fa-github"></i> Source
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 mb-4">
-                <div class="card h-100">
+                <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                  title="An archive of my tweets from Twitter">
                   <div class="card-body">
                     <h3 class="card-title"><i class="fas fa-ghost me-2"></i>Tweet Archive</h3>
-                    <a href="/twistory" class="btn btn-secondary stretched-link">View</a>
+                    <div class="mt-auto">
+                      <div class="d-grid gap-2 d-md-block">
+                        <a href="/twistory" class="btn btn-secondary">View</a>
+                        <a href="https://github.com/andypiper/twistory" target="_blank" rel="noopener"
+                          class="btn btn-dark">
+                          <i class="fab fa-github"></i> Source <i class="fas fa-lock"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 mb-4">
-                <div class="card h-100">
+                <div class="card h-100" data-bs-toggle="tooltip" data-bs-placement="top"
+                  title="A searchable catalog of my board games from BoardGameGeek">
                   <div class="card-body">
                     <h3 class="card-title"><i class="fas fa-dice me-2"></i>Board Games</h3>
-                    <a href="/mybgg" class="btn btn-secondary stretched-link">View</a>
+                    <div class="mt-auto">
+                      <div class="d-grid gap-2 d-md-block">
+                        <a href="/mybgg" class="btn btn-secondary">View</a>
+                        <a href="https://github.com/andypiper/mybgg" target="_blank" rel="noopener"
+                          class="btn btn-dark">
+                          <i class="fab fa-github"></i> Source
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -114,21 +143,53 @@
         <div class="container">
           <div class="footer-content d-flex justify-content-between align-items-center">
             <div>
-              <p class="mb-0">&copy; 2024 Andy Piper.</p>
+              <p class="mb-0">&copy; 2024 Andy Piper</p>
             </div>
             <ul class="footer-links list-unstyled d-flex mb-0">
+              <li><a href="https://andypiper.omg.lol" rel="me" class="u-url text-white"><i
+                    class="fas fa-link me-2"></i>andypiper.omg.lol</a></li>
               <li class="me-3"><a href="https://macaw.social/@andypiper" rel="me" class="u-url text-white"><i
                     class="fab fa-mastodon me-2"></i>Mastodon</a></li>
               <li class="me-3"><a href="https://andypiper.me" rel="me" class="u-url text-white"><i
-                    class="fas fa-link me-2"></i>andypiper.me</a></li>
-              <li><a href="https://andypiper.omg.lol" rel="me" class="u-url text-white"><i
-                    class="fas fa-link me-2"></i>andypiper.omg.lol</a></li>
+                    class="fas fa-link me-2"></i>Profile links</a></li>
             </ul>
           </div>
         </div>
       </footer>
     </div>
     <!-- <script src="/js/main.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script>
+      const aboutContentDiv = document.getElementById('about-content');
+      const markdownUrl = 'https://raw.githubusercontent.com/andypiper/andypiper/main/README.md';
+      const fallbackContent = `<p>Check out my <a href="https://github.com/andypiper">profile on GitHub</a>.</p>`;
+
+      fetch(markdownUrl)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          return response.text();
+        })
+        .then(markdownText => {
+          const converter = new showdown.Converter();
+          const htmlContent = converter.makeHtml(markdownText);
+          aboutContentDiv.innerHTML = htmlContent;
+        })
+        .catch(error => {
+          console.error('Error fetching Markdown file:', error);
+          aboutContentDiv.innerHTML = fallbackContent;
+        });
+    </script>
   </body>
 
 </html>
