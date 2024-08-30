@@ -2,7 +2,7 @@
 
 /* TEAM */
 
-Author, blogger, creator: Andy Piper
+Owner, coder, creator: Andy Piper
 Site: https://andypiper.org
 Fediverse: https://macaw.social/@andypiper
 GitHub: https://github.com/andypiper
