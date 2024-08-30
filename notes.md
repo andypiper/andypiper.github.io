@@ -1,6 +1,7 @@
 - figure out some sort of AP integration?
 
 Current projects
+
 - add links to Glitch apps
   - mastodon embeds
   - pipesmarks
@@ -9,4 +10,6 @@ Current projects
 - fedidevs
 
 - mastodon info (tool/hosted here)
+
+- synchronize with personal CSS
 -
