@@ -1,0 +1,18 @@
+/* humanstxt.org */
+
+/* TEAM */
+
+Author, blogger, creator: Andy Piper
+Site: https://andypiper.org
+Fediverse: https://macaw.social/@andypiper
+GitHub: https://github.com/andypiper
+Blog: https://andypiper.co.uk
+Location: Kingston-upon-Thames, UK
+
+/* SITE */
+
+Last update: 2024/08/30
+Powered by: HTML5, CSS3, JavaScript
+Hosted on: GitHub Pages
+Language: English
+
